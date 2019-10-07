@@ -1,19 +1,21 @@
 <template>
-    <div id="test">{{test}}</div>
+    <div id="app">{{ test }}</div>
 </template>
 
 <script>
+/* eslint-disable */
   export default {
-    data(){
-      return{
+    data() {
+      return {
         test:'vueDemo'
       }
     }
   }
+/* eslint-disable */
 </script>
 
 <style>
-    #test{
-        color:red;
+    #app{
+        color: red;
     }
 </style>

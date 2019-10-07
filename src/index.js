@@ -1,5 +1,10 @@
 import Vue from 'vue'
 import app from './app.vue'
+
+/* eslint-disable */
 new Vue({
-	render:(h)=>h(app)
+  el: '#app',
+  components: { app },
+  template: '<app/>'
 })
+/* eslint-disable */

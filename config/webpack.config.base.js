@@ -25,6 +25,13 @@ module.exports={
 				use:'vue-loader'
 			},
 			{
+				test: /\.(js|vue)$/,
+				loader: 'eslint-loader',
+				enforce: 'pre',
+				exclude: /node_modules/,
+
+			},
+			{
 				test:/\.(png|jpg|jepg|svg)$/,
 				use:[
 					{
