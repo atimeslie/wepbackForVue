@@ -8,7 +8,6 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.config.dev.js",
     "lint": "eslint --ext .js --ext .vue src/",
     "precommit": "eslint --ext .js --ext .vue src/"
-
   },
   "keywords": [],
   "author": "",
@@ -39,6 +38,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^5.2.3",
-    "husky": "^3.0.8"
+    "husky": "^3.0.8",
+    "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.5.3",
+    "vue-rx": "^6.2.0"
   }
 }
